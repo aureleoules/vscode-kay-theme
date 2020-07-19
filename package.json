@@ -1,32 +1,42 @@
 {
-  "name": "theme-kay",
-  "displayName": "Kay theme",
-  "description": "80's neon lights theme",
-  "version": "1.0.2",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kube/vscode-kay-theme"
-  },
-  "icon": "icon.png",
-  "publisher": "kube",
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Kay Light",
-        "uiTheme": "vs",
-        "path": "./themes/Light.json"
-      },
-      {
-        "label": "Kay Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dark.json"
-      }
-    ]
-  }
+	"name": "theme-kay",
+	"displayName": "Kay theme",
+	"description": "80's neon lights theme",
+	"version": "1.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kube/vscode-kay-theme"
+	},
+	"icon": "icon.png",
+	"publisher": "kube",
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Kay Light",
+				"uiTheme": "vs",
+				"path": "./themes/Light.json"
+			},
+			{
+				"label": "Kay Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Dark.json"
+			},
+			{
+				"label": "Kay Black",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Black.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "23f1aa8b-b6bf-4654-83c1-4cab7f14eab6",
+		"publisherId": "3cd11a42-5c38-4d0c-9247-25ba87ffc4c2",
+		"publisherDisplayName": "kube"
+	}
 }
